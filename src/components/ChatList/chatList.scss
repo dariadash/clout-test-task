@@ -1,0 +1,26 @@
+.chat-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border-right: 1px solid rgba(32, 31, 30, 0.12);
+}
+
+.chat-list-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px;
+    box-shadow: inset 0px -1px 0px rgba(32, 31, 30, 0.12);
+}
+
+.chat-list {
+    height: 800px;
+    overflow: auto;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chat-list::-webkit-scrollbar {
+    display: none;
+}

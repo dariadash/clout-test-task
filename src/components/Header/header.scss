@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px rgba(32, 31, 30, 0.12);
+}
+
+.header-label {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}

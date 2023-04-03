@@ -1,0 +1,27 @@
+.new-messages {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #407EC9;
+
+    padding: 4px 0;
+    width: 100%;
+    background: rgba(64, 126, 201, 0.08);
+}
+
+.system-message {
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.current-date {
+    background: rgba(64, 126, 201, 0.08);
+    padding: 8px 12px;
+    width: 60px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}

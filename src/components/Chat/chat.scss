@@ -1,0 +1,24 @@
+.chat-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 22px 0;
+
+    height: 680px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chat::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-input {
+    padding: 0 20px 20px;
+}
